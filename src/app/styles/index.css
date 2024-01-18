@@ -9,3 +9,19 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.calc-button {
+  @apply rounded-lg;
+  @apply bg-slate-500;
+  @apply text-4xl;
+  min-width: 10rem;
+  min-height: 5rem;
+}
+
+.calc-button-sm {
+  @apply rounded-lg;
+  @apply bg-slate-500;
+  @apply text-4xl;
+  min-width: 7.5rem;
+  min-height: 5rem;
+}
